@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
+        // Represents the main window of the application
         Window mainwindow = Window.getInstance();
 
         // Add button and Label
@@ -13,6 +14,7 @@ public class Main {
         System.out.println(mainwindow);
         mainwindow.printInfo();
 
+        // Let us fail miserably...
         Window secondWindow = Window.getInstance();
         secondWindow.setBtn(new Button("Fail"));
         mainwindow.printInfo();
