@@ -15,8 +15,10 @@ public class Main {
         mainwindow.printInfo();
 
         // Let us fail miserably...
+        System.out.println("Creating a new window...");
         Window secondWindow = Window.getInstance();
         secondWindow.setBtn(new Button("Fail"));
+        System.out.println("Printing info from odl window...");
         mainwindow.printInfo();
 
 
