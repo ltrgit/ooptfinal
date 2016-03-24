@@ -20,7 +20,8 @@ public class ComplexShape implements Shape {
     @Override
     public void draw() {
         System.out.println("I consist of the following shapes:");
-        shapes.stream().forEach(e-> e.draw());
+        shapes.forEach(Shape::draw);
+        //shapes.stream().forEach(e-> e.draw());
 
     }
 }
