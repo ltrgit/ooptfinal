@@ -2,7 +2,7 @@ package week8;
 
 
 interface Subject {
-    void registerObserver();
-    void removeObserver();
+    void registerObserver(Observer o);
+    void removeObserver(Observer o);
     void notifyObserver();
 }

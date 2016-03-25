@@ -2,5 +2,5 @@ package week8;
 
 
 public interface Observer {
-    void update();
+    void update(Subject s);
 }
