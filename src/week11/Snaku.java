@@ -9,6 +9,7 @@ public class Snaku extends Animal implements Dog {
     }
     @Override
     public void bark() {
+        System.out.println("Wuf");
 
     }
 }
